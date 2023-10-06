@@ -1,0 +1,190 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Vibur', cursive; */
+
+.text-orange{
+    color: coral;
+}
+
+.text-white{
+    color: white;
+}
+
+.top-nav-link{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
+    transition-duration: .4s;
+}
+
+.top-nav-link-active{
+    color: coral;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
+    transition-duration: .4s;
+}
+
+.top-nav-link:hover{
+    color: coral;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    color: coral;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+.text-strong{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.padding-zero{
+    padding: 0;
+}
+
+.header-image{
+    width: 100%;
+    height: 500px;
+    background-image: url(./Images/main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-title{
+    font-size: 50PX;
+    color: coral;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.destination-row{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.card:hover{
+    transition-duration: .4s;
+    background-color:#c0c0c050;
+}
+
+.custome-border{
+    border-radius: 8px;
+}
+
+.mid-banner{
+    /* height: 200px; */
+    background-color: rgb(3, 66, 68);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.mid-banner-head{
+    font-family: 'Vibur', cursive;
+    font-size: 60px;
+    color: coral;
+}
+
+.text-card-bottom-border{
+    border-radius: 2;
+    border-bottom-width: 5px;
+    border-bottom-color: cornflowerblue;
+}
+.text-card-title{
+    font-weight: 700;
+    font-size: 28px;
+    color: cornflowerblue;
+}
+
+.text-card-sub-title{
+    font-weight: 600;
+    color:rgb(148, 147, 147);
+}
+
+.text-card-content{
+    font-size: 22px;
+    font-weight:bolder;
+    color: black;
+    padding: 0;
+}
+
+
+.text-card-content-author{
+    font-weight: 600;
+}
+
+.text-blue{
+    color: cornflowerblue;
+    
+}
+
+.custome-link{
+    text-decoration: none;
+    transition-duration: .4s;
+}
+
+.custome-link:hover{
+    color:tomato;
+}
+
+.end-banner-head{
+    font-size: 20px;
+    color: white;
+}
+
+.end-ul a{
+    color: white;
+    
+}
+
+.end-li{
+    text-decoration: none;
+    color: white;
+}
+
+.end-li a{
+    text-decoration: none;
+    color: white;
+    transition-duration: .4s;
+} 
+
+.end-li a:hover{
+    color: tomato;
+}
+
+.margin-bot-zeero{
+    margin-bottom: 0;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+}
+
+.extrapage-normal-text{
+    font-size: 20px;
+    color: black;
+}
+
+.extrapage-large-text{
+    font-size: 28px;
+    }
